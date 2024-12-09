@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Ensure Java and Maven are installed in Jenkins
-        jdk 'JDK11'
+        jdk 'JDK-21.0.5'
     }
     stages {
         stage('Checkout') {
